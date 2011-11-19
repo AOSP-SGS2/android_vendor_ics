@@ -2,7 +2,7 @@
 $(call inherit-product, device/samsung/galaxys2/full_galaxys2.mk)
 
 # Inherit some common ICS stuff.
-$(call inherit-product, vendor/ics/products/common_full.mk)
+$(call inherit-product, vendor/ics/products/common.mk)
 
 # Include GSM stuff
 $(call inherit-product, vendor/ics/products/gsm.mk)
