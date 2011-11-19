@@ -1,11 +1,11 @@
 # Inherit AOSP device configuration for galaxys2.
 $(call inherit-product, device/samsung/galaxys2/full_galaxys2.mk)
 
-# Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cyanogen/products/common_full.mk)
+# Inherit some common ICS stuff.
+$(call inherit-product, vendor/ics/products/common_full.mk)
 
 # Include GSM stuff
-$(call inherit-product, vendor/cyanogen/products/gsm.mk)
+$(call inherit-product, vendor/ics/products/gsm.mk)
 
 #
 # Setup device specific product configuration.
